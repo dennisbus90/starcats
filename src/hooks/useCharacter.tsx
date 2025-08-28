@@ -9,6 +9,7 @@ export const useGetCharacters = (urls: string[]) => {
       queryFn: async () => CharacterService.getCharacterBy(url),
       staleTime: 1000 * 60 * 60,
       refetchOnWindowFocus: false,
+      enabled: !!url,
     })),
   });
 };

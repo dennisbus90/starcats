@@ -26,7 +26,7 @@ export const CharacterCardSkeletonLoader = () => {
     <Loaders>
       <CircleLoader height={48} width={48} />
       <div>
-        <Loader width={160} />
+        <Loader width={146} />
         <Loader width={number} />
       </div>
     </Loaders>

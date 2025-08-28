@@ -1,5 +1,5 @@
 import { useQueryClient } from "@tanstack/react-query";
-import type { Character } from "../utils/types/Film";
+import type { Character } from "../utils/types/film";
 import { SubPath } from "../utils/api";
 
 export const useGetCachedCharacters = () => {

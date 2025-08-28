@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import type { Film } from "../../utils/types/Film";
+import type { Film } from "../../utils/types/film";
 import { Column, Columns } from "../../utils/styles/grid";
 import { FilmCard } from "../card/variants/FilmCard";
 import { GoTo } from "../../utils/styles/link";

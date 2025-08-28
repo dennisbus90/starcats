@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import type { Character } from "../../utils/types/Film";
+import type { Character } from "../../utils/types/film";
 import { Column, Columns } from "../../utils/styles/grid";
 import { CharacterCard } from "../card/variants/CharacterCard";
 import { Notification } from "../Notification/Notification";
@@ -19,6 +19,7 @@ export const CharacterList = ({
   characters,
   isLoading = false,
 }: CharacterListProps) => {
+  console.log('characters', characters, isLoading)
   return (
     <Container>
       {!isLoading && !characters.length && (

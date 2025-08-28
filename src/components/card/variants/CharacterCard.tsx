@@ -1,5 +1,5 @@
 import { Card, type CardProps } from "../Card";
-import type { Character } from "../../../utils/types/Film";
+import type { Character } from "../../../utils/types/film";
 import styled from "@emotion/styled";
 import { Paragraph } from "../../../utils/styles/typography";
 import { popUpAnimation } from "../../../utils/styles/animation";
