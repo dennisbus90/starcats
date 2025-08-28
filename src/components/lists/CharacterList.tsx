@@ -19,7 +19,7 @@ export const CharacterList = ({
   characters,
   isLoading = false,
 }: CharacterListProps) => {
-  console.log('characters', characters, isLoading)
+
   return (
     <Container>
       {!isLoading && !characters.length && (
