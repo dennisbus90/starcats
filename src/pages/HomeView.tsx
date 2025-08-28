@@ -1,6 +1,6 @@
 import { useGetFilms } from "../hooks/useFilms";
 import { useEffect, useState } from "react";
-import type { Film } from "../utils/types/Film";
+import type { Film } from "../utils/types/film";
 import { FilmList } from "../components/lists/FilmList";
 import { H2 } from "../utils/styles/typography";
 import { FilterNavigation } from "../components/navigation/FilterNavigation";

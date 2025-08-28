@@ -1,5 +1,5 @@
 import { Card, type CardProps } from "../Card";
-import type { Film } from "../../../utils/types/Film";
+import type { Film } from "../../../utils/types/film";
 import styled from "@emotion/styled";
 import { Paragraph } from "../../../utils/styles/typography";
 import { FilmCardSkeletonLoader } from "../../loaders/variants/FilmCardSkeletonLoader";

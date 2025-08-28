@@ -1,10 +1,11 @@
-import type { Character } from "../types/Film";
+import { handleHttpError } from "../http";
+import type { Character } from "../types/film";
 
 const CharacterService = {
   async getCharacterBy(url: string): Promise<Character> {
     const res = await fetch(url);
 
-    if (!res.ok) throw new Error("Failed to fetch character");
+    if (!res.ok) handleHttpError(res.status, res.statusText);
     return res.json();
   },
 };
